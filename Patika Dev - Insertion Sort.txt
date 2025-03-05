@@ -1,0 +1,51 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Insertion Sort Aşamaları:
+
+1.Adım: 
+22 ve 27 zaten sıralı --> [22,27,16,2,18,6] 
+
+2.Adım:
+16, 22 ve 27' den küçük olduğu için başa kaydırırlır --> [16, 22, 27, 2, 18, 6]
+
+3.Adım:
+2, 16 dan küçük olduğu için en başa gelir --> [2, 16, 22, 27, 18, 6]
+
+4.Adım:
+18, 22'den küçük olduğu için 22 ve 27 kaydırılır --> [2, 16, 18, 22, 27, 6]
+
+5.Adım:
+6, 16'dan küçük olduğu için 16, 18, 22 ve 27 kaydırılır --> [2, 6, 16, 18, 22, 27]
+
+----------------------------------------------------------------------------------
+
+2) Big-O gösterimini yazınız.
+
+Big-O Gösterimi:
+Insertion Sort'un zaman karmaşıklığı (Time Complexity) en kötü durumda (Worst Case) O(n²)'dir.
+
+----------------------------------------------------------------------------------
+
+
+3)Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Time Complexity: Average case: Aradığımız sayının ortada olması, Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+
+Dizi sıralandıktan sonra 18 sayısının ortada olmasından dolayı Average Case kapsamına girer.
+
+----------------------------------------------------------------------------------
+
+4)[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+  [7,3,5,8,2,9,4,15,6]
+   
+1. [3,7,5,8,2,9,4,15,6]
+2. [3,5,7,8,2,9,4,15,6]
+3. [3,5,7,8,2,9,4,15,6]
+4. [2,3,5,7,8,9,4,15,6]
+
+
+
+
